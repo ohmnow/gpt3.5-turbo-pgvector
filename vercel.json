@@ -1,16 +1,10 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "/docs",
-        "use": "@vercel/node"
+    "build": {
+      "env": {
+        "MY_ENV_VARIABLE": "my-value"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/pages/api/docs.tsx"
-      }
-    ]
+    }
   }
+  
   
