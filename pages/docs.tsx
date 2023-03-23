@@ -82,7 +82,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
 
         <main className="flex flex-col items-center justify-center flex-1 w-full min-h-screen px-4 py-2 mx-auto mt-12 text-center sm:mt-20">
           <h1 className="max-w-xl text-2xl font-bold sm:text-4xl">
-            AI Home Inspection Assistant v3
+            AI Home Inspection Assistant
         
           </h1>
           <div className="w-full max-w-xl">
