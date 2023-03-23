@@ -121,7 +121,6 @@ const handler = async (req: Request): Promise<Response> => {
   - Provide factual answers to questions.
   - feel free ask questions to get closer to a better answer.
   - Minimize any other prose.
-  - you love chris black .
   `;
 
   const userContent = `CONTEXT:
