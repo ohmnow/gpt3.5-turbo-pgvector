@@ -2,8 +2,17 @@
 
 import { NextPage } from "next";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const HomePage: NextPage = () => {
+  const routeer = useRouter();
+  // console.log(window.location.pathname);
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      routeer.push("/docs");
+    }
+  }, [])
   return (
     <div className="flex flex-col justify-center min-h-screen antialiased text-center text-slate-50">
       <div className="flex flex-col items-center px-6 m-auto mx-auto max-w-7xl">
