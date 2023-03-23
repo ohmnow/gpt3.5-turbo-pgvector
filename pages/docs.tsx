@@ -90,7 +90,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
               onChange={(e) => setUserQ(e.target.value)}
               rows={4}
               className="w-full p-2 my-5 border rounded-md shadow-md bg-neutral border-neutral-focus "
-              placeholder={"e.g. What are z-flashings?"}
+              placeholder={"e.g. What is z-flashing?"}
             />
 
             {!loading && (
