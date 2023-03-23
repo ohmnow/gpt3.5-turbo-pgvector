@@ -72,8 +72,8 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
   return (
     <>
       <MetaTags
-        title="Webdev Answerbot"
-        description="Web Developer answer-bot trained on Supabase, Nextjs, React, TailwindCSS."
+        title="AI Home Inspector Assistant"
+        description="AI Home Inspector Assistant that can answer your questions about home inspections."
         cardImage="/bot/docs-og.png"
         url=""
       />
@@ -82,8 +82,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
 
         <main className="flex flex-col items-center justify-center flex-1 w-full min-h-screen px-4 py-2 mx-auto mt-12 text-center sm:mt-20">
           <h1 className="max-w-xl text-2xl font-bold sm:text-4xl">
-            AI Home Inspection Assistant
-        
+            AI Home Inspector Assistant
           </h1>
           <div className="w-full max-w-xl">
             <textarea
